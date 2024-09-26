@@ -1,7 +1,8 @@
 <template>
 
   <header>
-          <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 25px;">
+          <nav class="navbar navbar-expand-lg" style="padding: 25px; background-color: #f5e5ef;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: fixed; width: 100%; top: 0; z-index: 1000;">
               <div class="container-fluid">
                   <a class="navbar-brand" href="#">Web Profile Page</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -211,7 +212,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background-color: #f5e5ef;
+    background-color: #fff3fa;
   }
   
   /* section others */
@@ -251,7 +252,7 @@
     margin-top: 0px;
     text-align: center;
     padding: 20px;
-    background-color: #f5e5ef;
+    background-color: #fff3fa;
   
   }
   
