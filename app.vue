@@ -30,7 +30,7 @@
   <main>
         <section id="main-section">
           <div class="foto">
-            <img src="/assets/profile.jpg" alt="foto" width="400px" />
+            <img src="/assets/profile.jpg" alt="foto" width="500px" />
           </div>
           <div class="name">
             <h1 style="color:#ff90bb;"><b>SHALMA NUR FADILLA</b></h1>
@@ -51,53 +51,65 @@
             <h1><b>ABOUT ME</b></h1>
             <p>I am a person who like to learn the new things, especially technology. Let's be friends! 🖤</p>
           </div>
-        </section>
+        
   
         <section class="others">
           <div class="con-bio">
             <div class="edu">
               <h1><b>BIODATA</b></h1>
-                <div class="item">
-                  <P>Name:</P>
-                  <h4>SHALMA NUR FADILLA</h4>
-                </div>
-                <div class="item">
-                  <P>Age:</P>
-                  <h4>20 Years Old</h4>
-                </div>
-                <div class="item">
-                  <P>Hobby:</P>
-                  <h4>Listen to Music</h4>
-                </div>
-                <div class="item">
-                  <P>Address:</P>
-                  <h4>Tulungagung, Jawa Timur</h4>
-                </div>
             </div>
+                <table>
+                  <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td>Shalma Nur Fadilla</td>
+                  </tr>
+                  <tr>
+                    <td>Age</td>
+                    <td>:</td>
+                    <td>20 Years Old</td>
+                  </tr>
+                  <tr>
+                    <td>Hobby</td>
+                    <td>:</td>
+                    <td>Listen to Music</td>
+                  </tr>
+                  <tr>
+                    <td>Adderss</td>
+                    <td>:</td>
+                    <td>Tulungagung, Jawa Timur</td>
+                  </tr>
+                </table>
           </div>
   
           <div class="con-bio">
             <div class="edu">
               <h1><b>EDUCATION</b></h1>
-                <div class="item">
-                  <h4>SDN 1 BOLOREJO</h4>
-                  <P>2011 - 2017</P>
-                </div>
-                <div class="item">
-                  <h4>SMPN 1 KAUMAN</h4>
-                  <P>2017 - 2020</P>
-                </div>
-                <div class="item">
-                  <h4>SMAN 1 KAUMAN</h4>
-                  <P>2020 - 2021</P>
-                </div>
-                <div class="item">
-                  <h4>UNIVERSITAS BRAWIJAYA</h4>
-                  <P>2023 - Now</P>
-                </div>
-            </div>     
+            </div>
+              <table>
+                  <tr>
+                    <td>SDN 1 BOLOREJO</td>
+                    <td style="color: rgb(106, 106, 106);">|</td>
+                    <td style="color: rgb(106, 106, 106);">2011 - 2017</td>
+                  </tr>
+                  <tr>
+                    <td>SMPN 1 KAUMAN</td>
+                    <td style="color: rgb(106, 106, 106);">|</td>
+                    <td style="color: rgb(106, 106, 106);">2017 - 2020</td>
+                  </tr>
+                  <tr>
+                    <td>SMAN 1 KAUMAN</td>
+                    <td style="color: rgb(106, 106, 106);">|</td>
+                    <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
+                  </tr>
+                  <tr>
+                    <td>UNIVERSITAS BRAWIJAYA</td>
+                    <td style="color: rgb(106, 106, 106);">|</td>
+                    <td style="color: rgb(106, 106, 106);">2020 - Now</td>
+                  </tr>
+                </table>
           </div>
-        </section> 
+        </section> </section>
   
         <section id="portfolio">
           <h1><b>MY PROJECT</b></h1>
@@ -126,7 +138,7 @@
         
         <section id="contact-me">
           <h1><b>CONTACT ME</b></h1>
-          <P>Please contact me bellow for more.</P>
+          <h4>Please contact me bellow for more.</h4>
           <div class="contact-me">
             <a href="https://github.com/shalmafadilla">
               <img src="/assets/gh.png" alt="github" class="img-fluid me-3 mb-3" width="50px">
@@ -166,6 +178,10 @@
   p{
     color: rgb(106, 106, 106);
   }
+
+  td{
+    text-align: left;
+  }
   
   main {
     background-image: url("bg.png");
@@ -193,18 +209,16 @@
   #aboutme {
     font-size: 20px;
     margin: 0 auto;
-    margin-top: 0px;
-    width: 75%;
     text-align: center;
-    border-radius: 30px;
     padding: 20px;
+    background-color: #f5e5ef;
   }
   
   /* section others */
   .others {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 55%;
     border-radius: 30px;
     margin: 0 auto;
     margin-top: 20px;
@@ -212,14 +226,17 @@
     gap: 50px;
   }
   
+.edu{
+  text-align: center;
+}
+
   .con-bio{
     font-size: 20px;
     margin: 0 auto;
     margin-top: 0px;
-  
-    width: 75%;
     border-radius: 30px;
     padding: 20px;
+    position: relative;
   
   }
   
@@ -233,8 +250,8 @@
     margin: 0 auto;
     margin-top: 0px;
     text-align: center;
-    border-radius: 30px;
     padding: 20px;
+    background-color: #f5e5ef;
   
   }
   
@@ -262,11 +279,9 @@
     font-size: 20px;
     margin: 0 auto;
     margin-top: 0px;
-    width: 75%;
     text-align: center;
-    border-radius: 30px;
     padding: 20px;
-  
+    background-color: #e884ba;
   }
   
   .item {
@@ -281,8 +296,7 @@
   
   footer{
     text-align: center;
-    margin-top: 20px;
     padding: 20px 0px;
-    color: rgb(131, 131, 131);
+    background-color: #e884ba;
   }
   </style>
