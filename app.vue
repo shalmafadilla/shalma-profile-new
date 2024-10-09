@@ -89,24 +89,24 @@
               </div>
                 <table>
                   <tr>
+                    <tr>
+                      <td>UNIVERSITAS BRAWIJAYA</td>
+                      <td style="color: rgb(106, 106, 106);">|</td>
+                      <td style="color: rgb(106, 106, 106);">2023 - Now</td>
+                    </tr>
+                    <tr>
+                      <td>SMAN 1 KAUMAN</td>
+                      <td style="color: rgb(106, 106, 106);">|</td>
+                      <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
+                    </tr>
+                    <tr>
+                      <td>SMPN 1 KAUMAN</td>
+                      <td style="color: rgb(106, 106, 106);">|</td>
+                      <td style="color: rgb(106, 106, 106);">2017 - 2020</td>
+                    </tr>
                     <td>SDN 1 BOLOREJO</td>
                     <td style="color: rgb(106, 106, 106);">|</td>
                     <td style="color: rgb(106, 106, 106);">2011 - 2017</td>
-                  </tr>
-                  <tr>
-                    <td>SMPN 1 KAUMAN</td>
-                    <td style="color: rgb(106, 106, 106);">|</td>
-                    <td style="color: rgb(106, 106, 106);">2017 - 2020</td>
-                  </tr>
-                  <tr>
-                    <td>SMAN 1 KAUMAN</td>
-                    <td style="color: rgb(106, 106, 106);">|</td>
-                    <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
-                  </tr>
-                  <tr>
-                    <td>UNIVERSITAS BRAWIJAYA</td>
-                    <td style="color: rgb(106, 106, 106);">|</td>
-                    <td style="color: rgb(106, 106, 106);">2020 - Now</td>
                   </tr>
                 </table>
               </div>
@@ -195,6 +195,7 @@
 
   td{
     text-align: left;
+    font-size: 15px;
   }
   
   main {
