@@ -225,6 +225,7 @@
   }
 
   .foto img {
+    margin-top: 100px;
     width: 86%;
   }
 
