@@ -237,8 +237,9 @@
   #aboutme {
     font-size: 20px;
     margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 30px;
     text-align: center;
-    padding: 20px;
     background-color: #fff3fa;
   }
   
@@ -255,18 +256,16 @@
     flex-wrap: wrap;
   }
   
-.edu{
-  text-align: center;
-}
+  .edu{
+    text-align: center;
+  }
 
   .con-bio{
     font-size: 20px;
     margin: 0 auto;
     margin-top: 0px;
     border-radius: 30px;
-    padding: 20px;
-    position: relative;
-  
+
   }
   
   .bio {
