@@ -1,32 +1,33 @@
 <template>
 
-  <header>
-          <nav class="navbar navbar-expand-lg" style="padding: 25px; background-color: #f5e5ef;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: fixed; width: 100%; top: 0; z-index: 1000;">
-              <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Web Profile Page</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ms-auto">
-                          <li class="nav-item">
-                              <a class="nav-link" href="#main-section">Home</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#aboutme">About Me</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#portfolio">Portfolio</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#contact-me">Contact Me</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </nav>
-      </header>
+    <header>
+    <nav class="navbar navbar-expand-lg" style="padding: 25px; background-color: #f5e5ef;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: fixed; width: 100%; top: 0; z-index: 1000;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shalma's Profile Page</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#main-section">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   
   <main>
     <section class="main-section">
@@ -214,11 +215,6 @@
   .name {
     font-size: 20px;
   }
-  
-  .foto {
-  width: 35%;
-  float: right;
-}
 
 @media (max-width: 768px) {
   .foto {
@@ -233,7 +229,6 @@
   }
 }
 
-  
   #aboutme {
     font-size: 20px;
     margin: 0 auto;
@@ -246,8 +241,6 @@
   /* section others */
   .others {
     display: flex;
-    width: 60%;
-    border-radius: 30px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
@@ -261,7 +254,6 @@
   }
 
   .con-bio{
-    font-size: 20px;
     margin: 0 auto;
     margin-top: 0px;
     border-radius: 30px;
@@ -286,11 +278,9 @@
   .portfolio-inside{
     display: flex;
     gap: 100px;
-    font-size: 20px;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 100%;
-    border-radius: 30px;
     padding: 20px;
     justify-content: center;
     flex-wrap: wrap;
