@@ -227,6 +227,10 @@
   .foto img {
     width: 86%;
   }
+
+  .name {
+    text-align: center;
+  }
 }
 
   #aboutme {
