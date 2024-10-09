@@ -29,29 +29,29 @@
       </header>
   
   <main>
-        <section id="main-section">
-          <div class="foto">
-            <img src="/assets/profile.jpg" alt="foto" width="500px" />
-          </div>
-          <div class="name">
-            <h1 style="color:#ff90bb;"><b>SHALMA NUR FADILLA</b></h1>
-            <p>Information Technology Student</p>
-            <div class="icon">
-            <img src="/assets/html.jpg" alt="html" class="img-fluid me-3 mb-3" width="40px" />
-            <img src="/assets/css.jpg" alt="css" class="img-fluid me-3 mb-3" width="40px" />
-            <img src="/assets/java.jpg" alt="java" class="img-fluid me-3 mb-3" width="40px" />
-            <img src="/assets/cpp.jpg" alt="cpp" class="img-fluid me-3 mb-3" width="40px" />
-            <img src="/assets/python.jpg" alt="python" class="img-fluid me-3 mb-3" width="40px" />
-            <img src="/assets/php.jpg" alt="php" class="img-fluid me-3 mb-3" width="40px" />
-          </div>
-          </div>
-        </section>
+    <section class="main-section">
+      <div class="foto">
+        <img src="/assets/profile.jpg" alt="foto" width="500px" style="flex-wrap: wrap;"/>
+      </div>
+      <div class="name">
+        <h1 style="color:#ff90bb;"><b>SHALMA NUR FADILLA</b></h1>
+        <p>Information Technology Student</p>
+        <div class="icon">
+          <img src="/assets/html.jpg" alt="html" class="img-fluid me-3 mb-3" width="40px" />
+          <img src="/assets/css.jpg" alt="css" class="img-fluid me-3 mb-3" width="40px" />
+          <img src="/assets/java.jpg" alt="java" class="img-fluid me-3 mb-3" width="40px" />
+          <img src="/assets/cpp.jpg" alt="cpp" class="img-fluid me-3 mb-3" width="40px" />
+          <img src="/assets/python.jpg" alt="python" class="img-fluid me-3 mb-3" width="40px" />
+          <img src="/assets/php.jpg" alt="php" class="img-fluid me-3 mb-3" width="40px" />
+        </div>
+      </div>
+    </section>
         
-        <section id="aboutme">
-          <div>
-            <h1><b>ABOUT ME</b></h1>
-            <p>I am a person who like to learn the new things, especially technology. Let's be friends! 🖤</p>
-          </div>
+    <section id="aboutme">
+      <div>
+        <h1><b>ABOUT ME</b></h1>
+        <p>I am a person who like to learn the new things, especially technology. Let's be friends! 🖤</p>
+      </div>
         
           <section class="others">
             <div class="con-bio">
@@ -203,11 +203,12 @@
     height: 100vh;
   }
   
-  #main-section {
+  .main-section {
     display: flex;
     height: 750px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .name {
@@ -215,9 +216,23 @@
   }
   
   .foto {
-    width: 40%;
-    float: right;
+  width: 45%;
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .foto {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
+
+  .foto img {
+    width: 86%;
+  }
+}
+
   
   #aboutme {
     font-size: 20px;
@@ -230,13 +245,14 @@
   /* section others */
   .others {
     display: flex;
-    justify-content: space-between;
-    width: 55%;
+    width: 60%;
     border-radius: 30px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
     gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
 .edu{
@@ -278,6 +294,7 @@
     border-radius: 30px;
     padding: 20px;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   #contact-me{
