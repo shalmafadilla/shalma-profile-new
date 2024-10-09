@@ -216,7 +216,7 @@
   }
   
   .foto {
-  width: 45%;
+  width: 35%;
   float: right;
 }
 
@@ -290,7 +290,7 @@
     font-size: 20px;
     margin: 0 auto;
     margin-bottom: 20px;
-    width: 75%;
+    width: 100%;
     border-radius: 30px;
     padding: 20px;
     justify-content: center;
