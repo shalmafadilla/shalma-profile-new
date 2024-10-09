@@ -11,7 +11,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#main-section">Home</a>
+                              <a class="nav-link" href="#main-section">Home</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#aboutme">About Me</a>
@@ -53,41 +53,40 @@
             <p>I am a person who like to learn the new things, especially technology. Let's be friends! 🖤</p>
           </div>
         
-  
-        <section class="others">
-          <div class="con-bio">
-            <div class="edu">
-              <h1><b>BIODATA</b></h1>
-            </div>
+          <section class="others">
+            <div class="con-bio">
+              <div class="edu">
+                <h1><b>BIODATA</b></h1>
+              </div>
                 <table>
                   <tr>
-                    <td>Name</td>
+                    <td><b>Name</b></td>
                     <td>:</td>
                     <td>Shalma Nur Fadilla</td>
                   </tr>
                   <tr>
-                    <td>Age</td>
+                    <td><b>Age</b></td>
                     <td>:</td>
                     <td>20 Years Old</td>
                   </tr>
                   <tr>
-                    <td>Hobby</td>
+                    <td><b>Hobby</b></td>
                     <td>:</td>
                     <td>Listen to Music</td>
                   </tr>
                   <tr>
-                    <td>Adderss</td>
+                    <td><b>Adderss</b></td>
                     <td>:</td>
                     <td>Tulungagung, Jawa Timur</td>
                   </tr>
                 </table>
-          </div>
-  
-          <div class="con-bio">
-            <div class="edu">
-              <h1><b>EDUCATION</b></h1>
             </div>
-              <table>
+  
+            <div class="con-bio">
+              <div class="edu">
+              <h1><b>EDUCATION</b></h1>
+              </div>
+                <table>
                   <tr>
                     <td>SDN 1 BOLOREJO</td>
                     <td style="color: rgb(106, 106, 106);">|</td>
@@ -109,30 +108,43 @@
                     <td style="color: rgb(106, 106, 106);">2020 - Now</td>
                   </tr>
                 </table>
-          </div>
-        </section> </section>
+              </div>
+          </section>
+        </section>
   
         <section id="portfolio">
           <h1><b>MY PROJECT</b></h1>
           <P>These are all of my projects that I made during the last 2 semesters. And these use any language also creativity for the design.</P>
           <div class="portfolio-inside">
-            <div class="project">
-              <img src="/assets/project1.jpg" alt="" width="500px">
-              <h3>Web Company</h3>
+            <div class="card" style="width: 500px;">
+              <img class="card-img-top" src="/assets/project1.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
+              <div class="card-body" style="text-align: left;">
+                <h5 class="card-title">Web Company</h5>
+                <p class="card-text">Project membuat website untuk perusahaan beads, Untuk membranding sebuah perusahaan. Dengan fitur home, about us, dan instagram untuk memudahkan pemesanan melalui website.</p>
+              </div>
             </div>
-            <div class="project">
-              <img src="/assets/project2.jpg" alt="" width="500px">
-              <h3>Web Profile</h3>
+            <div class="card" style="width: 500px;">
+              <img class="card-img-top" src="/assets/project2.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
+              <div class="card-body" style="text-align: left;">
+                <h5 class="card-title">Web Profile</h5>
+                <p class="card-text">Project membuat website profil pribadi untuk membuat portofolio dan branding diri sendiri.</p>
+              </div>
             </div>
           </div>
           <div class="portfolio-inside">
-            <div class="project">
-              <img src="/assets/project3.jpg" alt="" width="500px">
-              <h3>Web Business</h3>
+            <div class="card" style="width: 500px;">
+              <img class="card-img-top" src="/assets/project3.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
+              <div class="card-body" style="text-align: left;">
+                <h5 class="card-title">Web Business</h5>
+                <p class="card-text">Project membuat website untuk bisnis laundry. Untuk meemudahkan sebuah perusahaan maupun pelanggan. Dengan banyak fitur yang membantu memanajemen pesanan laundry oleh petugas maupun admin.</p>
+              </div>
             </div>
-            <div class="project">
-              <img src="/assets/project4.jpg" alt="" width="500px">
-              <h3>Web Library</h3>
+            <div class="card" style="width: 500px;">
+              <img class="card-img-top" src="/assets/project4.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
+              <div class="card-body" style="text-align: left;">
+                <h5 class="card-title">Web Library</h5>
+                <p class="card-text">Project membuat website CRUD menggunakan php. Untuk memanajemen jumlah masing-masing barang berdasarkan kategori.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -258,22 +270,14 @@
   
   .portfolio-inside{
     display: flex;
+    gap: 100px;
     font-size: 20px;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-bottom: 20px;
     width: 75%;
     border-radius: 30px;
     padding: 20px;
-  }
-  
-  .project{
-  
-    justify-content: space-between;
-    width: 50%;
-    border-radius: 30px;
-    margin-top: 20px;
-    padding: 20px;
-    gap: 50px;
+    justify-content: center;
   }
   
   #contact-me{
