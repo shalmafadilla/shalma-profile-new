@@ -154,7 +154,7 @@
             <a href="https://www.linkedin.com/in/shalma-nur-fadilla-130392283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
               <img src="/assets/in.png" alt="linkedin" class="img-fluid me-3 mb-3" width="50px">
             </a>
-            <a href="https://www.instagram.com/shalmanaff?igsh=Mzc2eWxmbjc4MzFt">
+            <a href="https://www.instagram.com/nurfadillashalma?igsh=MXBnemc0aWFnbWxjcg==">
               <img src="/assets/ig.png" alt="ig" class="img-fluid me-3 mb-3" width="50px">
             </a>
             <a href="https://x.com/shalmanaff?s=21">
