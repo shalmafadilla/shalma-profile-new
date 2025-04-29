@@ -78,7 +78,7 @@
                   <tr>
                     <td><b>Adderss</b></td>
                     <td>:</td>
-                    <td>Tulungagung, Jawa Timur</td>
+                    <td>Kota Malang, Jawa Timur</td>
                   </tr>
                 </table>
             </div>
@@ -121,14 +121,14 @@
               <img class="card-img-top" src="/assets/project1.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
                 <h5 class="card-title">Web Company</h5>
-                <p class="card-text">Project membuat website untuk perusahaan beads, Untuk membranding sebuah perusahaan. Dengan fitur home, about us, dan instagram untuk memudahkan pemesanan melalui website.</p>
+                <p class="card-text">Proyek ini bertujuan untuk membuat website perusahaan beads sebagai media branding, dengan fitur halaman Home, About Us, dan integrasi Instagram untuk memudahkan pelanggan dalam melakukan pemesanan melalui website.</p>
               </div>
             </div>
             <div class="card" style="width: 500px;">
               <img class="card-img-top" src="/assets/project2.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
-                <h5 class="card-title">Web Profile</h5>
-                <p class="card-text">Project membuat website profil pribadi untuk membuat portofolio dan branding diri sendiri.</p>
+                <h5 class="card-title">Web Profile Page</h5>
+                <p class="card-text">Halaman profil berbasis website ini menampilkan riwayat pengembang, pengalaman kerja, keterampilan, serta proyek-proyek yang pernah dikerjakan sebagai bagian dari portofolio digital</p>
               </div>
             </div>
           </div>
@@ -136,8 +136,8 @@
             <div class="card" style="width: 500px;">
               <img class="card-img-top" src="/assets/project3.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
-                <h5 class="card-title">Web Business</h5>
-                <p class="card-text">Project membuat website untuk bisnis laundry. Untuk meemudahkan sebuah perusahaan maupun pelanggan. Dengan banyak fitur yang membantu memanajemen pesanan laundry oleh petugas maupun admin.</p>
+                <h5 class="card-title">Library Web App</h5>
+                <p class="card-text">Aplikasi perpustakaan berbasis website yang memungkinkan admin untuk mengelola proses peminjaman buku oleh pengguna secara efisien. </p>
               </div>
             </div>
             <div class="card" style="width: 500px;">
