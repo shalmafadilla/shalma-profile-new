@@ -35,7 +35,7 @@
         <img src="/assets/profile.jpg" alt="foto" width="500px" style="flex-wrap: wrap;"/>
       </div>
       <div class="name">
-        <h1 style="color:#ff90bb;"><b>SHALMA NUR FADILLA</b></h1>
+        <h1 style="color:#e884ba;"><b>SHALMA NUR FADILLA</b></h1>
         <p>Information Technology Student</p>
         <div class="icon">
           <img src="/assets/html.jpg" alt="html" class="img-fluid me-3 mb-3" width="40px" />
@@ -51,7 +51,7 @@
     <section id="aboutme">
       <div>
         <h1><b>ABOUT ME</b></h1>
-        <p>I am a person who like to learn the new things, especially technology. Let's be friends! 🖤</p>
+        <p>I am a Front-end web development enthusiast and currently an Information Technology student at Universitas Brawijaya. Experienced in teamwork, problem-solving, and actively involved in academic and organizational projects. Passionate about continuous learning and contributing to web technology innovation. Let's be friends! 🖤</p>
       </div>
         
           <section class="others">
@@ -61,24 +61,24 @@
               </div>
                 <table>
                   <tr>
-                    <td><b>Name</b></td>
-                    <td>:</td>
-                    <td>Shalma Nur Fadilla</td>
+                    <td>Name</td>
+                    <td></td>
+                    <td></td>
                   </tr>
                   <tr>
-                    <td><b>Age</b></td>
-                    <td>:</td>
-                    <td>20 Years Old</td>
+                    <td><b>SHALMA NUR FADILLA</b></td>
+                    <td></td>
+                    <td></td>
                   </tr>
                   <tr>
-                    <td><b>Hobby</b></td>
-                    <td>:</td>
-                    <td>Listen to Music</td>
+                    <td>Address</td>
+                    <td></td>
+                    <td></td>
                   </tr>
                   <tr>
-                    <td><b>Adderss</b></td>
-                    <td>:</td>
-                    <td>Kota Malang, Jawa Timur</td>
+                    <td><b>KOTA MALANG, JAWA TIMUR</b></td>
+                    <td></td>
+                    <td></td>
                   </tr>
                 </table>
             </div>
@@ -90,23 +90,17 @@
                 <table>
                   <tr>
                     <tr>
-                      <td>UNIVERSITAS BRAWIJAYA</td>
-                      <td style="color: rgb(106, 106, 106);">|</td>
+                      <td>Information Technology</td>
                       <td style="color: rgb(106, 106, 106);">2023 - Now</td>
                     </tr>
                     <tr>
-                      <td>SMAN 1 KAUMAN</td>
-                      <td style="color: rgb(106, 106, 106);">|</td>
-                      <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
+                      <td><b>UNIVERSITAS BRAWIJAYA</b></td>
                     </tr>
                     <tr>
-                      <td>SMPN 1 KAUMAN</td>
-                      <td style="color: rgb(106, 106, 106);">|</td>
-                      <td style="color: rgb(106, 106, 106);">2017 - 2020</td>
+                      <td>Senior High School</td>
+                    <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
                     </tr>
-                    <td>SDN 1 BOLOREJO</td>
-                    <td style="color: rgb(106, 106, 106);">|</td>
-                    <td style="color: rgb(106, 106, 106);">2011 - 2017</td>
+                    <td><b>SMAN 1 KAUMAN</b></td>
                   </tr>
                 </table>
               </div>
@@ -115,20 +109,20 @@
   
         <section id="portfolio">
           <h1><b>MY PROJECT</b></h1>
-          <P>These are all of my projects that I made during the last 2 semesters. And these use any language also creativity for the design.</P>
+          <P>These are all the projects I developed over the past two semesters, with various programming languages and showcasing creativity on its design.</P>
           <div class="portfolio-inside">
             <div class="card" style="width: 500px;">
               <img class="card-img-top" src="/assets/project1.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
                 <h5 class="card-title">Web Company</h5>
-                <p class="card-text">Proyek ini bertujuan untuk membuat website perusahaan beads sebagai media branding, dengan fitur halaman Home, About Us, dan integrasi Instagram untuk memudahkan pelanggan dalam melakukan pemesanan melalui website.</p>
+                <p class="card-text">This project aims to create a company website for a beads business as a branding tool, featuring a Home page, an About Us page, and Instagram integration to make it easier for customers to place orders through the website. </p>
               </div>
             </div>
             <div class="card" style="width: 500px;">
               <img class="card-img-top" src="/assets/project2.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
                 <h5 class="card-title">Web Profile Page</h5>
-                <p class="card-text">Halaman profil berbasis website ini menampilkan riwayat pengembang, pengalaman kerja, keterampilan, serta proyek-proyek yang pernah dikerjakan sebagai bagian dari portofolio digital</p>
+                <p class="card-text">This profile page showcases the developer's profile, work experience, skills, and projects that have worked on as part of their digital portfolio.</p>
               </div>
             </div>
           </div>
@@ -137,14 +131,14 @@
               <img class="card-img-top" src="/assets/project3.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
                 <h5 class="card-title">Library Web App</h5>
-                <p class="card-text">Aplikasi perpustakaan berbasis website yang memungkinkan admin untuk mengelola proses peminjaman buku oleh pengguna secara efisien. </p>
+                <p class="card-text">A website-based library application that allows administrators to efficiently manage the book borrowing process for users. </p>
               </div>
             </div>
             <div class="card" style="width: 500px;">
               <img class="card-img-top" src="/assets/project4.jpg" alt="" style="border-bottom: 1px solid #c2c2c2">
               <div class="card-body" style="text-align: left;">
-                <h5 class="card-title">Web Library</h5>
-                <p class="card-text">Project membuat website CRUD menggunakan php. Untuk memanajemen jumlah masing-masing barang berdasarkan kategori.</p>
+                <h5 class="card-title">Web Inventory</h5>
+                <p class="card-text">This project creates a CRUD website using PHP to manage the quantity of each item based on its category.</p>
               </div>
             </div>
           </div>
