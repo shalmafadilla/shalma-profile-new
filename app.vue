@@ -108,7 +108,7 @@
         </section>
   
         <section id="portfolio">
-          <h1><b>MY PROJECT</b></h1>
+          <h1><b>MY PROJECT(s)</b></h1>
           <P>These are all the projects I developed over the past two semesters, with various programming languages and showcasing creativity on its design.</P>
           <div class="portfolio-inside">
             <div class="card" style="width: 500px;">
