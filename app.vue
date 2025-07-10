@@ -1,8 +1,16 @@
 <template>
 
     <header>
-    <nav class="navbar navbar-expand-lg" style="padding: 25px; background-color: #f5e5ef;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: fixed; width: 100%; top: 0; z-index: 1000;">
+      <nav class="navbar navbar-expand-lg" style="padding: 25px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  z-index: 1000; 
+  background: rgba(255, 255, 255, 0.7); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);">
+
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Shalma's Profile Page</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -35,15 +43,15 @@
         <img src="/assets/profile.jpg" alt="foto" width="500px" style="flex-wrap: wrap;"/>
       </div>
       <div class="name">
-        <h1 style="color:#e884ba;"><b>SHALMA NUR FADILLA</b></h1>
-        <p>Information Technology Student</p>
-        <div class="icon">
-          <img src="/assets/html.jpg" alt="html" class="img-fluid me-3 mb-3" width="40px" />
-          <img src="/assets/css.jpg" alt="css" class="img-fluid me-3 mb-3" width="40px" />
-          <img src="/assets/java.jpg" alt="java" class="img-fluid me-3 mb-3" width="40px" />
-          <img src="/assets/cpp.jpg" alt="cpp" class="img-fluid me-3 mb-3" width="40px" />
-          <img src="/assets/python.jpg" alt="python" class="img-fluid me-3 mb-3" width="40px" />
-          <img src="/assets/php.jpg" alt="php" class="img-fluid me-3 mb-3" width="40px" />
+        <h1 style="color:#e773ab;"><b>Hello, I'am</b></h1>
+        <h1 style="color:#e773ab;"><b>Shalma Nur Fadilla</b></h1>
+        <p>Front-end Developer & UI/UX Enthusiast</p>
+        <div class="action">
+          <div class="cv">
+            <a href="http://drive.google.com/file/d/1VG7a8zQo9ItwkYurOccoP85xT1zEjRuQ/view?usp=sharing" style="text-decoration: none; color: #fff3fa;">
+            <h6>My Resume</h6></a>
+          </div>
+
         </div>
       </div>
     </section>
@@ -209,6 +217,21 @@
   
   .name {
     font-size: 20px;
+  }
+
+  .cv {
+    width: max-content;
+    padding: 7px 17px;
+    background-color: #e773ab;
+    color: #fff3fa;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cv:hover{
+    background-color: #c02170;
+    cursor: pointer;;
   }
 
 @media (max-width: 768px) {
