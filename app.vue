@@ -59,7 +59,7 @@
     <section id="aboutme">
       <div>
         <h1><b>ABOUT ME</b></h1>
-        <p>I am a Front-end web development enthusiast and currently an Information Technology student at Universitas Brawijaya. Experienced in teamwork, problem-solving, and actively involved in academic and organizational projects. Passionate about continuous learning and contributing to web technology innovation. Let's be friends! 🖤</p>
+        <p>Soon-to-be Information Technology graduate from Universitas Brawijaya with interests in Project Management, Product Development, Quality Assurance (QA), and Front-End Web Development. Experienced in developing and managing web-based digital products through academic and organizational projects, with strong skills in project coordination, software testing, problem-solving, and team collaboration. Passionate about delivering user-centered digital solutions and continuously learning new technologies to create impactful products, and let's be friend!</p>
       </div>
         
           <section class="others">
