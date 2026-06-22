@@ -63,56 +63,49 @@
       </div>
         
           <section class="others">
-            <div class="con-bio">
-              <div class="edu">
-                <h1><b>BIODATA</b></h1>
-              </div>
-                <table>
-                  <tr>
-                    <td>Name</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><b>SHALMA NUR FADILLA</b></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>Address</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><b>KOTA MALANG, JAWA TIMUR</b></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                </table>
-            </div>
-  
-            <div class="con-bio">
-              <div class="edu">
-              <h1><b>EDUCATION</b></h1>
-              </div>
-                <table>
-                  <tr>
-                    <tr>
-                      <td>Information Technology</td>
-                      <td style="color: rgb(106, 106, 106);">2023 - Now</td>
-                    </tr>
-                    <tr>
-                      <td><b>UNIVERSITAS BRAWIJAYA</b></td>
-                    </tr>
-                    <tr>
-                      <td>Senior High School</td>
-                    <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
-                    </tr>
-                    <td><b>SMAN 1 KAUMAN</b></td>
-                  </tr>
-                </table>
-              </div>
-          </section>
+  <div class="info-card">
+    <h2 class="card-title">Personal Info</h2>
+    <div class="info-list">
+      <div class="info-item">
+        <span class="label">Name</span>
+        <span class="value">Shalma Nur Fadilla</span>
+      </div>
+      <div class="info-item">
+        <span class="label">Location</span>
+        <span class="value">Malang, East Java</span>
+      </div>
+      <div class="info-item">
+        <span class="label">Focus</span>
+        <span class="value">Front-End, UI/UX, QA, Project Management</span>
+      </div>
+      <div class="info-item">
+        <span class="label">Status</span>
+        <span class="value">Final-year IT Diploma Student</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="info-card">
+    <h2 class="card-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-top">
+          <h4>Information Technology</h4>
+          <span>2023 - Present</span>
+        </div>
+        <p>Universitas Brawijaya</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-top">
+          <h4>Senior High School</h4>
+          <span>2020 - 2023</span>
+        </div>
+        <p>SMAN 1 Kauman</p>
+      </div>
+    </div>
+  </div>
+</section>
         </section>
   
         <section id="portfolio">
