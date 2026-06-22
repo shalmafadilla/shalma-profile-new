@@ -63,49 +63,56 @@
       </div>
         
           <section class="others">
-  <div class="info-card">
-    <h2 class="card-title">Personal Info</h2>
-    <div class="info-list">
-      <div class="info-item">
-        <span class="label">Name</span>
-        <span class="value">Shalma Nur Fadilla</span>
-      </div>
-      <div class="info-item">
-        <span class="label">Location</span>
-        <span class="value">Malang, East Java</span>
-      </div>
-      <div class="info-item">
-        <span class="label">Focus</span>
-        <span class="value">Front-End, UI/UX, QA, Project Management</span>
-      </div>
-      <div class="info-item">
-        <span class="label">Status</span>
-        <span class="value">Final-year IT Diploma Student</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="info-card">
-    <h2 class="card-title">Education</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-top">
-          <h4>Information Technology</h4>
-          <span>2023 - Present</span>
-        </div>
-        <p>Universitas Brawijaya</p>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-top">
-          <h4>Senior High School</h4>
-          <span>2020 - 2023</span>
-        </div>
-        <p>SMAN 1 Kauman</p>
-      </div>
-    </div>
-  </div>
-</section>
+            <div class="con-bio">
+              <div class="edu">
+                <h1><b>BIODATA</b></h1>
+              </div>
+                <table>
+                  <tr>
+                    <td>Name</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><b>SHALMA NUR FADILLA</b></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><b>KOTA MALANG, JAWA TIMUR</b></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+            </div>
+  
+            <div class="con-bio">
+              <div class="edu">
+              <h1><b>EDUCATION</b></h1>
+              </div>
+                <table>
+                  <tr>
+                    <tr>
+                      <td>Information Technology</td>
+                      <td style="color: rgb(106, 106, 106);">2023 - Now</td>
+                    </tr>
+                    <tr>
+                      <td><b>UNIVERSITAS BRAWIJAYA</b></td>
+                    </tr>
+                    <tr>
+                      <td>Senior High School</td>
+                    <td style="color: rgb(106, 106, 106);">2020 - 2023</td>
+                    </tr>
+                    <td><b>SMAN 1 KAUMAN</b></td>
+                  </tr>
+                </table>
+              </div>
+          </section>
         </section>
   
         <section id="portfolio">
@@ -175,349 +182,59 @@
   </script>
   
   <style scoped>
-template {
-  font-weight: 100;
-}
+  template{
+    font-weight: 100;
+  }
+  
+  .navbar-nav {
+    height: 50px;
+    align-items: center;
+  }
+  
+  p{
+    color: rgb(106, 106, 106);
+  }
 
-/* GLOBAL */
-html {
-  scroll-behavior: smooth;
-}
-
-p {
-  color: rgb(106, 106, 106);
-  line-height: 1.8;
-}
-
-main {
-  background-image: url("bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-/* NAVBAR */
-.navbar-nav {
-  height: 50px;
-  align-items: center;
-}
-
-.navbar-brand {
-  font-weight: 700;
-  color: #d85b98 !important;
-}
-
-.nav-link {
-  color: #6a6a6a !important;
-  font-weight: 500;
-  transition: 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #e773ab !important;
-}
-
-/* HERO SECTION */
-.main-section {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 120px 40px 60px;
-  gap: 40px;
-}
-
-.foto {
-  flex: 1;
-  min-width: 280px;
-  text-align: center;
-}
-
-.foto img {
-  max-width: 100%;
-  width: 420px;
-  border-radius: 30px;
-  object-fit: cover;
-}
-
-.name {
-  flex: 1;
-  min-width: 280px;
-  font-size: 20px;
-}
-
-.name h1 {
-  margin: 0;
-  line-height: 1.2;
-}
-
-.name p {
-  margin-top: 14px;
-  font-size: 18px;
-}
-
-.cv {
-  width: max-content;
-  padding: 10px 22px;
-  background-color: #e773ab;
-  color: #fff3fa;
-  border-radius: 30px;
-  margin-top: 18px;
-  transition: 0.3s ease;
-  box-shadow: 0 8px 20px rgba(231, 115, 171, 0.2);
-}
-
-.cv h6 {
-  margin: 0;
-}
-
-.cv:hover {
-  background-color: #c02170;
-  cursor: pointer;
-  transform: translateY(-2px);
-}
-
-/* ABOUT ME */
-#aboutme {
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 70px 20px 40px;
-  text-align: center;
-  background: linear-gradient(to bottom, #fff7fb, #fff3fa);
-}
-
-#aboutme > div:first-child {
-  max-width: 950px;
-  margin: 0 auto;
-}
-
-#aboutme h1 {
-  color: #d85b98;
-  margin-bottom: 14px;
-}
-
-#aboutme p {
-  max-width: 850px;
-  margin: 0 auto;
-}
-
-/* ABOUT CARDS */
-.others {
-  display: flex;
-  justify-content: center;
-  gap: 28px;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  padding: 0 20px 30px;
-}
-
-.info-card {
-  width: 100%;
-  max-width: 500px;
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid #f7dce9;
-  border-radius: 28px;
-  padding: 28px;
-  text-align: left;
-  box-shadow: 0 10px 30px rgba(231, 115, 171, 0.08);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.card-title {
-  font-size: 28px;
-  color: #d85b98;
-  margin-bottom: 22px;
-  text-align: center;
-}
-
-.info-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 14px 16px;
-  background-color: #fff8fc;
-  border-radius: 18px;
-  border: 1px solid #f7dce9;
-}
-
-.label {
-  font-size: 14px;
-  color: #b06a8b;
-  letter-spacing: 0.3px;
-}
-
-.value {
-  font-size: 17px;
-  color: #444;
-  font-weight: 600;
-}
-
-.timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.timeline-item {
-  background-color: #fff8fc;
-  border: 1px solid #f7dce9;
-  border-radius: 18px;
-  padding: 18px 20px;
-}
-
-.timeline-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.timeline-top h4 {
-  margin: 0;
-  font-size: 18px;
-  color: #444;
-}
-
-.timeline-top span {
-  font-size: 14px;
-  color: #b06a8b;
-  background-color: #fdebf3;
-  padding: 6px 12px;
-  border-radius: 999px;
-}
-
-.timeline-item p {
-  margin: 10px 0 0;
-  color: #666;
-  font-size: 15px;
-}
-
-/* PORTFOLIO */
-#portfolio {
-  font-size: 20px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #fff3fa;
-}
-
-#portfolio h1 {
-  color: #d85b98;
-  margin-bottom: 12px;
-}
-
-#portfolio > p {
-  max-width: 850px;
-  margin: 0 auto 30px;
-}
-
-.portfolio-inside {
-  display: flex;
-  gap: 40px;
-  margin: 0 auto 20px;
-  width: 100%;
-  padding: 10px 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  border: none !important;
-  border-radius: 24px !important;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(231, 115, 171, 0.12);
-  transition: 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-}
-
-.card-img-top {
-  height: 250px;
-  object-fit: cover;
-}
-
-.card-body {
-  padding: 22px;
-}
-
-.card-title {
-  color: #d85b98;
-}
-
-/* CONTACT */
-#contact-me {
-  font-size: 20px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 60px 20px 30px;
-  background-color: #e884ba;
-  color: white;
-}
-
-#contact-me h1,
-#contact-me h4 {
-  color: white;
-}
-
-.contact-me {
-  margin-top: 24px;
-}
-
-.contact-me a {
-  display: inline-block;
-  margin: 0 8px;
-}
-
-.contact-me img {
-  transition: 0.3s ease;
-}
-
-.contact-me img:hover {
-  transform: translateY(-4px) scale(1.05);
-  opacity: 0.85;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 18px 12px;
-  background-color: #e884ba;
-  color: white;
-  font-size: 15px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 992px) {
+  td{
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  main {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
   .main-section {
-    padding: 120px 24px 50px;
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .name {
+    font-size: 20px;
   }
 
-  .foto img {
-    width: 340px;
+  .cv {
+    width: max-content;
+    padding: 7px 17px;
+    background-color: #e773ab;
+    color: #fff3fa;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
   }
-}
+
+  .cv:hover{
+    background-color: #c02170;
+    cursor: pointer;;
+  }
 
 @media (max-width: 768px) {
-  .main-section {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    padding: 120px 20px 50px;
-  }
-
   .foto {
     width: 100%;
     display: block;
@@ -526,46 +243,94 @@ footer {
   }
 
   .foto img {
-    margin-top: 20px;
-    width: 85%;
-    max-width: 320px;
+    margin-top: 100px;
+    width: 86%;
   }
 
   .name {
     text-align: center;
-    font-size: 18px;
-  }
-
-  .cv {
-    margin: 18px auto 0;
-  }
-
-  #aboutme {
-    padding: 50px 16px 30px;
-  }
-
-  .info-card {
-    padding: 22px 18px;
-  }
-
-  .card-title {
-    font-size: 24px;
-  }
-
-  .timeline-top {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  #portfolio,
-  #contact-me {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .portfolio-inside {
-    gap: 24px;
-    padding: 10px 0;
   }
 }
-</style>
+
+  #aboutme {
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #fff3fa;
+  }
+  
+  /* section others */
+  .others {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .edu{
+    text-align: center;
+  }
+
+  .con-bio{
+    margin: 0 auto;
+    margin-top: 0px;
+    border-radius: 30px;
+
+  }
+  
+  .bio {
+    padding: 30px;
+    margin: 0 auto;
+  }
+  
+  #portfolio{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff3fa;
+  
+  }
+  
+  .portfolio-inside{
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #contact-me{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+    background-color: #e884ba;
+  }
+  
+  .item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  a img:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #e884ba;
+  }
+  </style>
