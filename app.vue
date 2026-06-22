@@ -45,7 +45,7 @@
       <div class="name">
         <h1 style="color:#e773ab;"><b>Hello, I'am</b></h1>
         <h1 style="color:#e773ab;"><b>Shalma Nur Fadilla</b></h1>
-        <p>Front-end Developer & UI/UX Enthusiast</p>
+        <p>Project Management | Quality Assurance | Product Development | Front-End Development </p>
         <div class="action">
           <div class="cv">
             <a href="https://drive.google.com/file/d/1z4rlAUoqdPDfXePcZN8Zl2tz57fvh8Mq/view?usp=drive_link" style="text-decoration: none; color: #fff3fa;">
