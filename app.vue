@@ -48,7 +48,7 @@
         <p>Front-end Developer & UI/UX Enthusiast</p>
         <div class="action">
           <div class="cv">
-            <a href="http://drive.google.com/file/d/1VG7a8zQo9ItwkYurOccoP85xT1zEjRuQ/view?usp=sharing" style="text-decoration: none; color: #fff3fa;">
+            <a href="https://drive.google.com/file/d/1z4rlAUoqdPDfXePcZN8Zl2tz57fvh8Mq/view?usp=drive_link" style="text-decoration: none; color: #fff3fa;">
             <h6>My Resume</h6></a>
           </div>
 
